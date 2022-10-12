@@ -19,9 +19,9 @@ def rotate(point, point1, point2, rad, show=False):
     :return: 旋转后的点
     """
     # 将点用NumPy数组表示
-    point = np.array(point, dtype=np.float)
-    point1 = np.array(point1, dtype=np.float)
-    point2 = np.array(point2, dtype=np.float)
+    point = np.array(point, dtype=float)
+    point1 = np.array(point1, dtype=float)
+    point2 = np.array(point2, dtype=float)
 
     # 计算旋转轴上的单位向量
     axis = point2 - point1
