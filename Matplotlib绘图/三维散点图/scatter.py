@@ -12,10 +12,10 @@ ax.set_axis_off()  # 隐藏坐标轴
 ax.quiver([0], [0], [0], [1], [0], [0], colors='r', length=1.0)
 ax.quiver([0], [0], [0], [0], [1], [0], colors='g', length=1.0)
 ax.quiver([0], [0], [0], [0], [0], [1], colors='b', length=1.0)
-ax.text(0.0, 0.0, -0.1, r'$o$')
-ax.text(1.1, 0, 0, r'$x$')
-ax.text(0, 1.1, 0, r'$y$')
-ax.text(0, 0, 1.1, r'$z$')
+ax.text(x=0.0, y=0.0, z=-0.1, s=r'$o$')
+ax.text(x=1.1, y=0.0, z=0.0, s=r'$x$')
+ax.text(x=0.0, y=1.1, z=0.0, s=r'$y$')
+ax.text(x=0.0, y=0.0, z=1.1, s=r'$z$')
 
 max_lim = -1.e20
 min_lim = 1.e20

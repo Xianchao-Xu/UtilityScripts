@@ -96,14 +96,14 @@ def show_picture(points, arrows):
         point = points[point_name]
         x, y, z = point
         ax.scatter(x, y, z, c='r', marker='o')
-        ax.text(x, y, z, r'${}$'.format(point_name))
+        ax.text(x, y, z, s=r'${}$'.format(point_name))
 
     for arrow_name in arrows:
         arrow = arrows[arrow_name]
         x, y, z = arrow[0]  # 箭头位置
         dx, dy, dz = arrow[1]  # 箭头大小
         ax.quiver(x, y, z, dx, dy, dz, colors='g', arrow_length_ratio=0.1)
-        ax.text(x+dx/2, y+dy/2, z+dz/2, r'${}$'.format(arrow_name))
+        ax.text(x+dx/2, y+dy/2, z+dz/2, s=r'${}$'.format(arrow_name))
 
     l_min = 1.e20
     l_max = -1.e20
