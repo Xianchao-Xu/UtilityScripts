@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/Program/Python/UtilityScripts/Manim动画/media/videos/Manim动画/480p15/partial_movie_files/MatchingEquationParts/1185818338_3649372508_2128194096.mp4'
+file 'file:D:/Program/Python/UtilityScripts/Manim动画/media/videos/Manim动画/480p15/partial_movie_files/MatchingEquationParts/624642324_942875609_4227516557.mp4'
+file 'file:D:/Program/Python/UtilityScripts/Manim动画/media/videos/Manim动画/480p15/partial_movie_files/MatchingEquationParts/624642324_1959358871_2185618337.mp4'
+file 'file:D:/Program/Python/UtilityScripts/Manim动画/media/videos/Manim动画/480p15/partial_movie_files/MatchingEquationParts/624642324_4098965877_574630669.mp4'
+file 'file:D:/Program/Python/UtilityScripts/Manim动画/media/videos/Manim动画/480p15/partial_movie_files/MatchingEquationParts/624642324_1959358871_2647903752.mp4'

@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:D:/Program/Python/UtilityScripts/Manim动画/media/videos/Manim动画/480p15/partial_movie_files/TexFrameBox/1185818338_1029410239_223132457.mp4'
+file 'file:D:/Program/Python/UtilityScripts/Manim动画/media/videos/Manim动画/480p15/partial_movie_files/TexFrameBox/624642324_3165791108_1546504265.mp4'
+file 'file:D:/Program/Python/UtilityScripts/Manim动画/media/videos/Manim动画/480p15/partial_movie_files/TexFrameBox/624642324_1704852926_1403607514.mp4'
+file 'file:D:/Program/Python/UtilityScripts/Manim动画/media/videos/Manim动画/480p15/partial_movie_files/TexFrameBox/624642324_565610086_1482562615.mp4'
+file 'file:D:/Program/Python/UtilityScripts/Manim动画/media/videos/Manim动画/480p15/partial_movie_files/TexFrameBox/624642324_1704852926_3781447298.mp4'
