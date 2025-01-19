@@ -6,6 +6,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
+def cross(vec1: np.ndarray, vec2: np.ndarray) -> np.ndarray:
+    return np.cross(vec1, vec2)
+
+
 def rotate(point, point1, point2, rad, show=False):
     """
     点绕任意轴线旋转一定弧度后的坐标
@@ -35,7 +39,7 @@ def rotate(point, point1, point2, rad, show=False):
     # 罗德里格公式
     term1 = vector_origin * cos(rad)
     term2 = vector_projection * (1 - cos(rad))
-    term3 = np.cross(axis_unit, vector_origin) * sin(rad)
+    term3 = cross(axis_unit, vector_origin) * sin(rad)
     vector_rotate = term1 + term2 + term3
     new_point = point1 + vector_rotate
 
